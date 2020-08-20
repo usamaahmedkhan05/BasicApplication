@@ -26,5 +26,11 @@ namespace BasicApplication.Controllers
 
             return View();
         }
+        public ActionResult Check()
+        {
+            ViewBag.Message = "Your contact page.";
+
+            return View();
+        }
     }
 }
