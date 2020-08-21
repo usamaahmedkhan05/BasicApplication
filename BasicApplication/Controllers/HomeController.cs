@@ -26,5 +26,6 @@ namespace BasicApplication.Controllers
 
             return View();
         }
+       
     }
 }
